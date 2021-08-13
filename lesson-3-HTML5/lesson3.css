@@ -1,0 +1,42 @@
+@font-face {
+	font-family: "Emblema One";
+	src: url("./EmblemaOne-Regular.woff"), 
+	     url("./EmblemaOne-Regular.ttf"); 
+}
+
+        body { 
+            background-color: #d2b48c;
+            margin-left: 20%;
+            margin-right: 20%;
+            border: 2px dotted black;
+            padding: 10px 10px 10px 10px;
+            font-family: sans-serif;
+        }
+    
+body {
+  font-family:     Verdana, Geneva, Arial, sans-serif;
+  font-size:       small;
+}
+h1 {
+  color:           #cc6600;
+  border-bottom:   thin dotted #888888;
+ 
+}
+}
+h2, p {
+  color:           #cc6600;
+  border-bottom:   thin dotted #888888;
+  margin-left: 80%;
+  margin-right: 80%;
+ 
+}
+
+
+div {
+  width: 35px;
+  height: 5px;
+  background-color: rgb(117, 114, 114);
+  margin: 6px 0;
+  margin-left: 80%;
+  margin-right: 80%;
+}
