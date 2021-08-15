@@ -5,10 +5,11 @@
 }
 
         body { 
+          color: #000000;
             background-color: #d2b48c;
             margin-left: 20%;
             margin-right: 20%;
-            border: 2px dotted black;
+            border: px dotted black;
             padding: 10px 10px 10px 10px;
             font-family: sans-serif;
         }
@@ -17,16 +18,29 @@ body {
   font-family:    'Segoe UI', Tahoma, sans-serif;
   font-size:       small;
 }
-h1 {
-  color:           #cc6600;
-  border-bottom:   thin dotted #888888;
- 
+head {
+  font-family: monospace, monospace;
+text-align: center;
+}
+nav {
+  font-family: monospace, monospace;
+  text-align: center;
+
+}
+div {
+  font-family: monospace, monospace;
+  text-align: center;
 }
 
-h2, p {
-  color:           #cc6600;
-  border-bottom:   thin dotted #888888;
-  margin-left: 10%;
-  margin-right: 80%;
- 
+footer {
+  color: #FFFFFF;
+  margin: 5px;
+    border: 5px solid #E95B11;
+    background-color:#000000;;
+    width: 100%;
+    text-align: center;
+    margin-top: 30%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
 }
