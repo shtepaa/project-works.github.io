@@ -1,28 +1,27 @@
-@font-face {
-  font-family: "Emblema One";
-  src: url("./EmblemaOne-Regular.woff"), url("./EmblemaOne-Regular.ttf");
-}
-
 body {
-  background-color: #d2b48c;
-  margin-left: 20%;
-  margin-right: 20%;
-  border: 2px dotted black;
+  color: #000000;
+  background-color: #ffffff;
+  border: px dotted black;
   padding: 10px 10px 10px 10px;
   font-family: sans-serif;
 }
-
-body {
-  font-family: Verdana, Geneva, Arial, sans-serif;
-  font-size: small;
+nav {
+  color: #ffffff;
+  size: large;
+  margin: 10px;
+  border: solid #a52a2a;
+  padding: 5px;
+  background-color: #a52a2a;
+  width: 100%;
   text-align: center;
-  text-align: justify;
 }
-h1 {
-  color: #000;
-  border-bottom: thin dotted #888888;
-  text-align: center;
-  text-align: justify;
+div classline {
+  background-color: black;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-image: 300px dotted black;
+  padding: 10px;
+  border-width: 3px 7px 7px 4px;
 }
 .c {
   border: 1px solid #333; /* Рамка */
@@ -37,22 +36,7 @@ h1 {
   background: linear-gradient(to bottom, #333, #c6f700); /* Градиент */
   color: #a00;
 }
-h2,
-p {
-  color: #000;
-  border-bottom: thin dotted #888888;
-  text-align: center;
-  text-align: justify;
-}
 
-div {
-  width: 35px;
-  height: 5px;
-  background-color: rgb(117, 114, 114);
-  margin: 6px 0;
-  margin-left: 80%;
-  margin-right: 80%;
-}
 footer {
   color: #ffffff;
   margin: 5px;
