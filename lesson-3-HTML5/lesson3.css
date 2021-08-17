@@ -24,7 +24,7 @@ h1 {
   text-align: center;
   text-align: justify;
 }
-.c {
+.cover {
   border: 1px solid #333; /* Рамка */
   display: inline-block;
   padding: 5px 15px; /* Поля */

@@ -32,7 +32,7 @@ div {
   font-family: monospace, monospace;
   text-align: center;
 }
-.c {
+.cover {
   border: 1px solid #333; /* Рамка */
   display: inline-block;
   padding: 5px 15px; /* Поля */
