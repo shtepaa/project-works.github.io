@@ -3,9 +3,10 @@ body {
   color: #edf1fa;
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
+  
 }
 * {
-  box-sizing: border-box;
+  box-sizing:border-box;
   padding: 0;
   margin: 0;
 }
@@ -23,17 +24,17 @@ body {
   background: #ff545b;
   border-radius: 50%;
   position: fixed;
-  right: 50px;
-  top: -40px;
-  width: 468px;
-  height: 468px;
+  right: 130px;
+  top: -30px;
+  width: 228px;
+  height: 228px;
 }
 .circle-inner {
   background: #ffcf6d;
-  width: 244px;
-  height: 244px;
-  top: 50px;
-  right: 180px;
+  width: 140px;
+  height: 140px;
+  top: 30px;
+  right: 170px;
   position: fixed;
   border-radius: 50%;
 }
@@ -50,8 +51,8 @@ body {
   background: #ff545b;
   width: 129px;
   height: 129px;
-  bottom: 340px;
-  right: 166px;
+  bottom: 330px;
+  right: 100px;
   position: fixed;
   border-radius: 50%;
 }
@@ -117,4 +118,17 @@ footer {
   text-decoration: none; /* Убираем подчёркивание */
   color: #000; /* Цвет текста */
   background-color: #c6f700;
+}
+.button {
+  border: 1px solid #333; /* Рамка */
+  display: inline-block;
+  padding: 5px 15px; /* Поля */
+  text-decoration: none; /* Убираем подчёркивание */
+  color: #000; /* Цвет текста */
+  background-color: #c6f700;
+}
+.button:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Тень */
+  background: linear-gradient(to bottom, #333, #c6f700); /* Градиент */
+  color: #a00;
 }

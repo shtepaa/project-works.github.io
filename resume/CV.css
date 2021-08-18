@@ -7,7 +7,9 @@ body {
   background-color: #d2b48c;
   margin-left: 20%;
   margin-right: 20%;
-  border: 2px dotted black;
+  border: 10px double #E698D3;
+  border: 15px double #BDABF8;
+
   padding: 10px 10px 10px 10px;
   font-family: sans-serif;
 }
@@ -16,30 +18,24 @@ header {
 }
 
 h1 {
-  color: #cc6600;
+  color: black;
   border-bottom: thin dotted #888888;
 }
 
 h2,
 p {
-  color: #cc6600;
+  color: black;
   border-bottom: thin dotted #888888;
 }
 
 div {
-  width: 35px;
-  height: 5px;
-  background-color: rgb(117, 114, 114);
-  margin: 6px 0;
-  margin-left: 80%;
-  margin-right: 80%;
+ 
+  text-align: left;
 }
 footer {
   color: #ffffff;
-  margin: 5px;
-  border: 5px solid #000000;
-  padding: 5px;
-  background-color: #000000;
+  border: solid #E698D3;
+  background-color: #BDABF8;
   width: 100%;
   text-align: center;
 }
