@@ -1,25 +1,21 @@
-@font-face {
-  font-family: "Emblema One";
-  src: url("./EmblemaOne-Regular.woff"), url("./EmblemaOne-Regular.ttf");
-}
+
 
 body {
-  background-color: #d2b48c;
+  background-color: #90A2C6;
   margin-left: 20%;
   margin-right: 20%;
-  border: 10px double #E698D3;
-  border: 15px double #BDABF8;
-
+  border: 15px double #bdabf8;
   padding: 10px 10px 10px 10px;
-  font-family: sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  border-radius: 70px;
 }
 header {
   direction: ltr;
 }
 
-h1 {
+h1, h3 {
   color: black;
-  border-bottom: thin dotted #888888;
+  padding-left:20px;
 }
 
 h2,
@@ -29,13 +25,40 @@ p {
 }
 
 div {
- 
   text-align: left;
+  margin-bottom: 15px;
 }
 footer {
   color: #ffffff;
-  border: solid #E698D3;
-  background-color: #BDABF8;
+  border: solid #e698d3;
+  background-color: #bdabf8;
   width: 100%;
   text-align: center;
+  border-radius: 70px;
+  margin-bottom: 20px;
+}
+.languages {
+  border: 15px double #bdabf8;
+  width: 300px;
+  border-radius: 70px;
+  text-align:justify;
+  padding-left:20px;
+}
+.certificates {
+  border: 15px double #bdabf8;
+  border-radius: 70px;
+  text-align:justify;
+  width: 320px;
+  margin-left: 400px;
+  margin-bottom: 100px;
+}
+.quality {
+  border: 15px double #bdabf8;
+  width: 300px;
+  border-radius: 70px;
+  text-align:justify;
+  padding-left:20px;
+}
+nav {
+  border-radius: 70px;
 }
