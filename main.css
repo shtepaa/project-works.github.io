@@ -15,34 +15,27 @@ body {
 
 h1 {
   font-family: "Segoe UI", Tahoma, sans-serif;
-  
+
   color: #000000;
   border-bottom: thin dotted #888888;
   text-align: center;
 }
-head {
-  font-family: monospace, monospace;
-  text-align: center;
-}
-nav {
-  font-family: monospace, monospace;
-  text-align: center;
-}
+
 div {
   font-family: monospace, monospace;
- 
-  border: 1px solid #333; /* Рамка */
-  display: inline-block;
+  text-align: center;
+  
+  
   padding: 5px 15px; /* Поля */
   text-decoration: none; /* Убираем подчёркивание */
   color: #000; /* Цвет текста */
   background-color: #eb7e7f;
- 
-  margin-top: 110px;
+
+  margin-top: 30px;
 }
 div:hover {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Тень */
-  background: linear-gradient(to bottom, #fcfff4, #e9e9ce); /* Градиент */
+  background: linear-gradient(to bottom, #623f6e, hsl(322, 38%, 86%)); /* Градиент */
   color: #a00;
 }
 .cover {
@@ -58,7 +51,12 @@ div:hover {
   background: linear-gradient(to bottom, #fcfff4, #e9e9ce); /* Градиент */
   color: #a00;
 }
-
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
 footer {
   color: #ffffff;
   margin: 5px;
