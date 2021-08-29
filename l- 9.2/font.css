@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'proxima';
+    src: url('./fonts/proxima nova/Proxima\ Nova\ Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* @font-face {
+    font-family: 'roboto-bold';
+    src: url('./fonts/roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'roboto-italic';
+    src: url('./fonts/roboto/Roboto-Bold.ttf') format('truetype');
+    font-style: normal;
+  } */
+  
+  
+  
+  /* @font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  } */
+  
