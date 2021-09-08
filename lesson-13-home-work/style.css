@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  margin: 0;
+}
+/* Стиль иконок */
+.icon {
+  display: inline-block;
+  
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  width: 45px;
+  height: 45px;
+}
+.l-main {
+  display: flex;
+  justify-content: center;
+}
+.c-background__wrapper {
+  background-image: url(./image/bg.png);
+  width: 1500px;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+}
+.header__block {
+  display: flex;
+  width: 750px;
+  align-items: center;
+  padding: 0 165px 0 130px;
+}
+/* Колонки */
+.block__column {
+  display: flex;
+  flex-direction: column;
+  padding: 180px 0px 150px 265px;
+  width: 750px;
+}
+.list {
+  width: 400px;
+  height: 100px;
+  background-color: #ffffff;
+  flex-direction: row;
+  display: flex;
+  box-sizing: content-box;
+
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px 0 70px;
+}
+
+.column--second {
+  margin-top: 20px;
+}
+.column--third {
+  margin-top: 20px;
+  display: flex;
+}
+.column--fourth {
+  margin-top: 20px;
+}
+/* Текст */
+h1 {
+  font-size: 20px;
+  line-height: 27px;
+  color: #262626;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  text-align: right;
+  font-weight: bold;
+}
+.together {
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+}
+.text {
+    display: flex;
+    font-size: 80px;
+  line-height: 27px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway";
+  text-align: left;
+}
+/* Footer */
+footer {
+  color: black;
+  border: solid #e698d3;
+  background-color: #bdabf8;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
