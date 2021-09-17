@@ -1,0 +1,14 @@
+.e-link {
+  transition: $t-normal;
+  line-height: 1;
+  color: $c-white;
+
+  &:hover {
+    color: $c-orange;
+  }
+
+  &:active {
+    color: rgba($c-blue, .6);
+  }
+
+}

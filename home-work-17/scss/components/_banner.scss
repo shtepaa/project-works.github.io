@@ -1,0 +1,38 @@
+.c-banner {
+  &__wrapper {
+    position: relative;
+    padding-top: 202px;
+    z-index: 3;
+  }
+
+  &__title {
+    font-family: $f-poppins;
+    margin-bottom: 24px;
+    font-size: em(48);
+    line-height: 64px;
+    max-width: 550px;
+    cursor: default;
+  }
+  &__text{
+    font-family: $f-source;
+    line-height: 34px;
+    font-size: 22px;
+    
+  }
+  &__dunamic {
+    margin-bottom: 48px;
+  }
+
+  &__background {
+    position: absolute;
+    z-index: 2;
+    min-height: 100vh;
+    right: 0;
+    top: 0;
+
+    &__image {
+      height: 100%;
+    }
+  }
+
+}

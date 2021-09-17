@@ -1,0 +1,29 @@
+.c-navigation {
+  &__wrapper {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    color: $c-white;
+  }
+
+  &__left {
+    align-items: center;
+    display: flex;
+    color: $c-white;
+  }
+
+  &__right {
+    align-items: center;
+    color: $c-white;
+    display: flex;
+  }
+
+  &__item {
+    margin-right: 32px;
+    color: $c-white;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
