@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.wrapper-logo{
+    
+    height: 60px;
+    max-width: 245px;
+    display: flex;
+    position: fixed;
+    background-color: #373A3C;
+    border: 1px solid #373A3C;
+}

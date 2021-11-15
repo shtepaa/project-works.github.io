@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Rubik:wght@400;500;700&display=swap');
+:root {
+    --green: #8DD83D;
+    --purple:#2B076E;
+    --dark: #373A3C;
+    --white: #FFFFFF;
+    --gray:#686C6F;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--dark);
+    color: var(--white);
+}
+.header {
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 1070px;
+    margin-top: 11px;
+    display: flex;
+}
+.nav {
+    list-style-type: none;
+    align-items: center;
+    padding-left: 0;
+    display: flex;
+    margin: 0;
+}
+.nav-item {
+    margin-left: 28px;
+}
+.nav-item--search {
+    margin-left: 37px;
+}
+.arrow {
+    margin-left: 8px;
+}
+.person {
+    margin-right: 10px;
+}
+.nav-link {
+    transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    color: var(--white);
+    opacity: 50%;
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav-link:hover {
+    color: var(--white);
+    opacity: 99%;
+}
+/* Гамбургер */
+.hamburger {
+    display: none;
+}
+
+.bar {
+    
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #e4f0f5;
+}
+@media only screen and (max-width: 768px) {
+    .nav {
+        position: fixed;
+        /* left: 100%; */
+        top: 7rem;
+        flex-direction: column;
+        background-color: var(--dark);
+        width: -100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(219, 143, 143, 0.05);
+        left: 0;
+        right: 0;
+    }
+
+    .nav.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+/* Пошук */
+input:invalid ~ span:after {
+    /* content: '✖'; */
+    padding-left: 5px;
+    position: absolute;
+}
+
+input:valid ~ span:after {
+    content: '✓';
+    padding-left: 5px;
+    position: absolute;
+}
+/* Слайдер */
+.wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.swiper-container {
+    /* width: 1200px; */
+    height: 550px;
+    width: 100%;
+}
+.item__slide {
+    padding: 0px 0px 0px 0px;
+}
+.item__img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.item__img img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.swiper-pagination-bullet {
+    width: 25px;
+    height: 25px;
+    border: 10px solid #0c598d;
+    background: #e4f0f5;
+    line-height: 15px;
+}
+.item__prev {
+    color: #8DD83D;
+}
+.item__next {
+    color: #8DD83D;
+}
+/* проба текста */
+.main-text {
+    position: absolute;
+    z-index: 1000;
+    right: 0;
+    margin: 206px 412px 344px;
+}
+.main-text__sale {
+    background-color: rgb(var(--white-rgb),0.1);
+    display: inline-block;
+    border-radius: 32px;
+    font-size:36px;
+}
+
+.main-text__title {
+    /* margin-bottom: 24px; */
+    font-weight: 500;
+    /* margin-top: 20px; */
+    line-height: 28,13px;
+    font-size: 24px;
+}
+
+.main-text__link {
+    color: var(--white);
+    background-color: var(--gray);
+    
+    border-radius: 4px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    height: 38px;
+    width: 148px;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 8px 24px 9px 19px;
+    
+}
+.main-text__link:hover {
+    background-color: var(--green);
+    color: var(--white);
+    
+}
+.main-text__link-gray {
+    color: var(--white);
+    background-color: var(--gray);
+   
+    border-radius: 4px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    height: 38px;
+    width: 148px;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 8px 24px 9px 19px;
+    margin-left: 13px;
+}
+.main-text__link-gray:hover {
+    background-color: var(--green);
+    color: var(--white);
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>
+
+    <script src="https://raw.githubusercontent.com/codebox/moment-precise-range/master/moment-precise-range.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h2>Difference between "NOW and 2014-02-03 12:53:12"</h2>
+  <span id="output1"></span>
+  <br />
+  <span id="output2"></span>
+    <script>
+var starts = moment('2014-02-03 12:53:12');
+var ends   = moment();
+
+var duration = moment.duration(ends.diff(starts));
+
+// with ###moment precise date range plugin###
+// it will tell you the difference in human terms
+
+var diff = moment.preciseDiff(starts, ends, true); 
+// example: { "years": 2, "months": 7, "days": 0, "hours": 6, "minutes": 29, "seconds": 17, "firstDateWasLater":  false }
+
+
+// or as string:
+var diffHuman = moment.preciseDiff(starts, ends);
+// example: 2 years 7 months 6 hours 29 minutes 17 seconds
+
+document.getElementById('output1').innerHTML = JSON.stringify(diff)
+document.getElementById('output2').innerHTML = diffHuman
+        </script>
+</body>
+</html>

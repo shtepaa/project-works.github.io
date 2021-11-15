@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Employee {
+  constructor(name, age, spec) {
+    this.name = name;
+    this.age = age;
+    this.spec = spec;
+  }
+}
+ 
+class EmpTable {
+  constructor(employees) {
+    this.employees = employees;
+  }
+ 
+  getHtml() { // refactor to be done
+    document.write("<table border = \"3\"><tr>");
+    for (const [key] of Object.entries(employees[0])) {
+      document.write('<th>' + key + '</th>');
+    }
+    document.write("</tr>");
+ 
+    for (let i = 0; i < employees.length; i++) {
+      document.write("<tr>");
+      Object.values(employees[i]).forEach(v => {
+        document.write("<td>" + v + "</td>");
+      });
+      document.write("</tr>");
+    }
+    document.write("</table>");
+  }
+}
+ 
+const employees = [new Employee('Vasja', 25, 'IT'), new Employee('Petja', 30, 'DOC')];
+const empTable = new EmpTable(employees);
+empTable.getHtml();
+    </script>
+</body>
+</html>
