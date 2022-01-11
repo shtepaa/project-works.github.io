@@ -60,7 +60,8 @@ p {
     justify-content: center;
     background-size: cover;
     flex-direction: column;
-    padding-top: 10px;
+    flex-wrap: wrap;
+    padding-top: 100px;
     display: flex;
     height: 750px;
 }

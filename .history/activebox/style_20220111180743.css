@@ -60,13 +60,14 @@ p {
     justify-content: center;
     background-size: cover;
     flex-direction: column;
-    padding-top: 10px;
+    padding-top: 100px;
     display: flex;
     height: 750px;
 }
 
 .intro__inner {
     text-align: center;
+    flex-wrap: wrap;
     max-width: 970px;
     margin: 0 auto;
     width: 100%;

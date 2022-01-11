@@ -59,8 +59,9 @@ p {
     background: linear-gradient(90deg, rgb(208, 67, 185) 29%, rgb(82, 142, 182) 63%, rgb(239, 242, 221) 100%);
     justify-content: center;
     background-size: cover;
-    flex-direction: column;
-    padding-top: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 100px;
     display: flex;
     height: 750px;
 }

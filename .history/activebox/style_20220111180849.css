@@ -60,7 +60,7 @@ p {
     justify-content: center;
     background-size: cover;
     flex-direction: column;
-    padding-top: 10px;
+    padding-top: 80px;
     display: flex;
     height: 750px;
 }
